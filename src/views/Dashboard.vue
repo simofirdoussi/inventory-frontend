@@ -48,7 +48,7 @@
             </thead>
 
             <tbody class="bg-white">
-              <tr v-for="(p, index) in productsF" :key="index">
+              <tr v-for="(p, index) in products" :key="index">
                 <td
                   class="px-2 py-4 border-b border-gray-200 whitespace-nowrap"
                 >
